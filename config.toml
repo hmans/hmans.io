@@ -1,0 +1,4 @@
+baseURL = "https://hmans.io/"
+languageCode = "de-de"
+title = "Hendrik Mans"
+theme = "ananke"
