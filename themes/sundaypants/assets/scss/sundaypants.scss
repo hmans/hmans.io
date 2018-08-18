@@ -1,0 +1,46 @@
+@import "_normalize";
+
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #fff;
+  color: #444;
+  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: bold;
+}
+
+div#content {
+  @extend .container;
+  margin-top: 3em;
+
+  h1 {
+    color: rgb(152, 4, 146);
+  }
+}
+
+header[role="main"] {
+  border-bottom: 1px solid #ccc;
+  padding: 1em;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:first-child {
+    font-weight: bold;
+  }
+}
