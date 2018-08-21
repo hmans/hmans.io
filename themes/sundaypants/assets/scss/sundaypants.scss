@@ -1,5 +1,7 @@
 @import "_normalize";
 
+$col1: rgb(152, 4, 146);
+
 .container {
   max-width: 600px;
   margin-left: auto;
@@ -22,12 +24,16 @@ h6 {
   font-weight: bold;
 }
 
+a {
+  color: $col1;
+}
+
 div#content {
   @extend .container;
   margin-top: 3em;
 
   h1 {
-    color: rgb(152, 4, 146);
+    color: $col1;
   }
 }
 

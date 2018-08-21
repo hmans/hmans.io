@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2018-08-11T11:54:13+02:00
-draft: true
+description: In which I try to figure out if I should build my new blog with Hugo.
 ---
 
 Okay, let's see if Hugo is nice.
